@@ -1,0 +1,17 @@
+.shopping-tools-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBFBFB;
+    margin: 5%;
+
+}
+
+.shopping-tools-item{
+    flex-basis: 25%;
+    padding: 5%;
+    border-right: solid rgba(197, 196, 196, 0.438);
+}
+
+.shopping-tools-item:last-child{
+    border-right: none;
+}

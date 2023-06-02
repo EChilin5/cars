@@ -1,0 +1,81 @@
+.vechile-card-layout{
+    /* border: 2px solid black; */
+    /* border-radius: 5%; */
+   
+   
+    /* background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%); */
+    background:rgba(16, 82, 16, 0.541);
+
+    max-width:100%;
+    height:auto;
+    margin: 10px;
+}
+.vechile-card-layout img{
+    max-width:100%;
+    height:auto;
+    
+}
+
+.vechile-car-type{
+    font-size: medium;
+    text-align: left;
+    padding-top: 10px;
+
+}
+
+.card-content{
+    background:rgba(16, 82, 16, 0.541);
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+.vechile-car-model{
+    font-size: medium;
+    text-align: left;
+    padding-top: 10px;
+}
+.vechile-car-desc{
+    font-size: medium;
+    text-align: left;
+    padding-top: 10px;
+}
+
+
+.vechile-content-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+}
+
+.vechile-content-data-item{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.vechile-card-layout button{
+    margin-left: 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+}
+.vechile-card-layout button:hover{
+    transform: scale(1.2);
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid linear-gradient(135deg, #E3E3E3 0%,#d2d3d5 100%);;
+}
+
+
+.explore-all-vec-btn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explore-all-vec-btn button{
+    margin:10px;
+    font-size: x-large;
+}

@@ -1,0 +1,28 @@
+.home-gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.explore-all-vehicles{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 2rem;
+}
+
+.explore-all-vechiles-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.explore-all-vechiles-section-item{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.home-gallery img{
+    max-height: 500px;
+}
+
+.home-gallery{
+    font-size: xx-large;
+}
