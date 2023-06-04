@@ -1,0 +1,24 @@
+.inventory-card-container{
+    margin: 10px;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.inventory-card-photo img{
+    max-width: 100%;
+    height: auto; 
+    margin-bottom: 10px;
+  
+}
+
+.inventory-card-content{
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.inventory-car-item{
+    flex-basis: 50%;
+    box-sizing: border-box;
+   
+}
