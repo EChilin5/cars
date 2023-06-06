@@ -7,3 +7,9 @@
     flex-basis: 33%;
     box-sizing: border-box;
 }
+
+@media screen and (min-width:300px){
+    .catalog-container{
+        display: block;
+    }
+}

@@ -26,3 +26,14 @@
 .home-gallery{
     font-size: xx-large;
 }
+
+@media screen and  (min-width:300px){
+
+    .home-gallery img{
+        height: 300px;
+    }
+    
+    .explore-all-vechiles-section-item{
+        flex-basis: 100%;
+    }
+}

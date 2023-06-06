@@ -1,0 +1,21 @@
+.inventory-container{
+    display: flex;
+    margin: 2%;
+}
+
+.inventory-section-filter{
+    flex: 40%;
+}
+
+.inventory-section-content{
+    flex:auto;
+}
+
+@media screen and (min-width:300px) {
+    .inventory-container{
+        display: block;
+    }
+    .inventory-section-filter{
+        flex:1;
+    }
+}

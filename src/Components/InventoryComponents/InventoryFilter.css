@@ -1,0 +1,55 @@
+.filter-container{
+    background:linear-gradient(135deg, #E3E3E3 0%,#e3e3e3 100%);
+    padding: 1%;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.filter-heading{
+    text-align: left;
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-heading-item{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+#expand-content{
+    color: orange;
+    text-align: right;
+    font-weight: 500;
+}
+
+
+.fitler-sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.filter-sub-item{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+
+.menu{
+    align-content: right;
+    float: right;
+}
+
+.menu-line{
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.menu-line-close{
+    width: 35px;
+    height: 2px;
+    background-color: blue;
+    margin: 6px 0;
+}
