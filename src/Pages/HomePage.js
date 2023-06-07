@@ -10,6 +10,11 @@ import ShoppingTools from "../Components/HomePageComponents/ShoppingTools";
 
 const HomePage = () => {
   let vehiclesType = ["trucks", "sedans", "suv"];
+  let url = "http://localhost:3000/inventory";
+
+  const openNewWindow = () => {
+    window.open(url, "_self");
+  };
 
   return (
     <div>
@@ -32,7 +37,7 @@ const HomePage = () => {
           </div>
           <div className="explore-all-vec-btn">
             <Button>Explore all Vehicles</Button>
-            <Button>Search Inventory</Button>
+            <Button onClick={() => openNewWindow()}>Search Inventory</Button>
           </div>
         </div>
       </div>

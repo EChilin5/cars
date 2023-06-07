@@ -7,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import HomePage from "../Pages/HomePage";
 import InventoryPage from "../Pages/InventoryPage";
+import { ItemDetailPage } from "../Pages/ItemDetailPage";
 
 const NavbarHome = () => {
   return (
@@ -23,13 +24,16 @@ const NavbarHome = () => {
             <Nav.Link as={Link} to={"/inventory"}>
               Inventory
             </Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link as={Link} to={"/detail"}>
+              Pricing
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<InventoryPage />} />
+        <Route path="/detail" element={<ItemDetailPage />} />
       </Routes>
     </Router>
   );
