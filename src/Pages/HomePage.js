@@ -37,11 +37,15 @@ const HomePage = () => {
           </div>
           <div className="explore-all-vec-btn">
             <Button>Explore all Vehicles</Button>
+            <br />
             <Button onClick={() => openNewWindow()}>Search Inventory</Button>
           </div>
         </div>
       </div>
-      <h1>Shopping Tools</h1>
+      <div className="home-shopping-title">
+        <h1>Shopping Tools</h1>
+      </div>
+
       <div>
         <ShoppingTools />
       </div>

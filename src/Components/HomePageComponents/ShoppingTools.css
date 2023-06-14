@@ -19,6 +19,7 @@
 @media screen and (min-width:300px) {
     .shopping-tools-item{
         flex-basis: 50%;
+        text-align: center;
     }
     .shopping-tools-item:first-child{
         border-bottom: solid rgba(197, 196, 196, 0.438);

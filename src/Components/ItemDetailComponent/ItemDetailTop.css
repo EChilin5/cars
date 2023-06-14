@@ -1,0 +1,92 @@
+.top-content{
+    background-color: F6F6F6;
+    padding: 2%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .car-content-detials{
+    font-weight: bold;
+   text-decoration: underline;
+  }
+
+  .top-heading{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+
+.top-heading-item{
+    flex-basis: 20%;
+    border-right: solid rgba(197, 196, 196, 0.438);
+
+}
+
+.car-content-confirmation{
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.vehicle-image{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vehicle-image img{
+    max-width:100%;
+}
+
+.vehicle-image-desc{
+    text-align: center;
+    font-size: 11px;
+}
+
+@media screen and (min-width:300px){
+    .top-heading{
+        display: block;
+    }
+    .top-heading div{
+        margin-left: 15px;
+    }
+    .top-heading div:first-child{
+        margin-left: 2px;
+    }
+    .top-heading-sub{
+        margin-left: 15px;
+    }
+
+    .vehicle-name{
+        text-align: center;
+    }
+    .vehicle-name-sub{
+        text-align: center;
+    }
+    .vehicle-paint{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .vehicle-price{
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: large;
+        font-weight: 500;
+    }
+    .interior-content{
+        margin-bottom: 5px;
+    }
+    .general-info{
+        margin-left: 25px;
+    }
+}

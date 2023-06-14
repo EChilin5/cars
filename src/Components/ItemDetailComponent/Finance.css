@@ -1,0 +1,67 @@
+
+.finance-section{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.finance-section h1{
+    text-decoration: underline;
+}
+
+.finance-section div:first-child{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.finance-section div{
+    margin-bottom: 15px;
+}
+
+.payment-summary-section{
+    margin: 20px 10px 30px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    background-color: white;
+}
+
+.payment-summary-section h1{
+    text-decoration: underline;
+}
+
+.payment-fine-print{
+    font-size: x-small;
+    color: grey;
+}
+
+.payment-content-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment-item{
+    flex-basis: 50%;
+    font-size: large;
+    font-weight: 500;
+}
+
+.payment-item-content{
+    font-size: medium;
+    font-weight: 400;
+}
+
+#payment-msrp{
+    text-align: right;
+}
+
+.payment-content-print{
+    font-size: small;
+}
+
+.payment-content-minor{
+    font-size: x-small;
+    margin-bottom: 10px;
+}

@@ -26,6 +26,9 @@
 .home-gallery{
     font-size: xx-large;
 }
+.home-shopping-title{
+    text-align: center;
+}
 
 @media screen and  (min-width:300px){
 
@@ -36,4 +39,7 @@
     .explore-all-vechiles-section-item{
         flex-basis: 100%;
     }
+
+   
+
 }

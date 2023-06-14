@@ -79,3 +79,8 @@
     margin:10px;
     font-size: x-large;
 }
+
+.vehicle-options-btn{
+    justify-content: center;
+    align-items: center;
+}

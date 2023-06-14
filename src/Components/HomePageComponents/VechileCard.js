@@ -24,7 +24,7 @@ const VechileCard = () => {
             22/29 <br /> est mpg*
           </div>
         </div>
-        <div className="">
+        <div className="vehicle-options-btn">
           <Button>Explore</Button>
           <Button>Build</Button>
         </div>
