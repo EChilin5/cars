@@ -7,6 +7,7 @@ export const ItemDetailPage = () => {
   return (
     <div>
       <ItemDetailTop />
+      <hr />
       <Finance />
     </div>
   );

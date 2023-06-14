@@ -24,7 +24,7 @@ const Finance = () => {
         <div>
           <FloatingLabel controlId="floatingSelect" label="Credit Score">
             <Form.Select aria-label="Floating label select example">
-              <option>Open this select menu</option>
+              <option></option>
               <option value="1">Excellent</option>
               <option value="2">Good</option>
               <option value="3">Bad</option>
@@ -34,9 +34,9 @@ const Finance = () => {
         </div>
 
         <div>
-          <FloatingLabel controlId="floatingSelect" label="Works with selects">
+          <FloatingLabel controlId="floatingSelect" label="Term Length">
             <Form.Select aria-label="Term Length">
-              <option>Open this select menu</option>
+              <option></option>
               <option value="1">24 Months</option>
               <option value="2">36 Months</option>
               <option value="3">48 Months</option>
@@ -46,9 +46,9 @@ const Finance = () => {
         </div>
 
         <div>
-          <FloatingLabel controlId="floatingSelect" label="Works with selects">
+          <FloatingLabel controlId="floatingSelect" label="Annual Mileage">
             <Form.Select aria-label="Annual Mileage">
-              <option>Open this select menu</option>
+              <option></option>
               <option value="1">10,000</option>
               <option value="2">12,000</option>
               <option value="3">15,000</option>
