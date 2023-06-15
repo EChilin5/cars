@@ -12,8 +12,6 @@ const InventoryPage = () => {
         </div>
         <div className="inventory-section-content">
           <InventoryCatalog />
-          <InventoryCatalog />
-          <InventoryCatalog />
         </div>
       </div>
     </div>

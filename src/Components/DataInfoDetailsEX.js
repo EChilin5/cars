@@ -1,8 +1,6 @@
 import React from "react";
-import "./InventoryCatalog.css";
-import InventoryCard from "./InventoryCard";
 
-const InventoryCatalog = (props) => {
+const dataInfo = () => {
   const carInfo = [
     {
       id: 0,
@@ -38,7 +36,7 @@ const InventoryCatalog = (props) => {
       price: "$28,250",
       mpg: "18/22",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/Tacoma_23?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://toyotaassets.scene7.com/is/image/toyota/CRW_MY23_0004_V002?fmt=jpeg&fit=crop&qlt=90&wid=500",
     },
     {
       id: 3,
@@ -50,19 +48,19 @@ const InventoryCatalog = (props) => {
       price: "$38,965",
       mpg: "18/24",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/TUN_MY22_0002_V002_desktop?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://toyotaassets.scene7.com/is/image/toyota/PRP_MY23_0016_V001_desktop?fmt=jpeg&fit=crop&qlt=90&wid=500",
     },
     {
       id: 4,
-      name: "Highlander Hybrid",
+      name: "Highlander",
       year: 2023,
       type: "electrified",
       hybrid: true,
-      description: "Designed to go the extra miles",
-      price: "$40,620",
-      mpg: "36/35",
+      description: "Go above and beyond the ordinary",
+      price: "$36,620",
+      mpg: "22/29",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/HLH_MY23_0002_V001_desktop-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://toyotaassets.scene7.com/is/image/toyota/HLD_MY23_0003_V001_desktop-1?fmt=jpeg&fit=crop&qlt=90&wid=500",
     },
     {
       id: 5,
@@ -76,57 +74,16 @@ const InventoryCatalog = (props) => {
       image:
         "https://toyotaassets.scene7.com/is/image/toyota/BZ4_MY23_0035_V001-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
     },
-    {
-      id: 6,
-      name: "Highlander",
-      year: 2023,
-      type: "crossovers-suvs",
-      hybrid: true,
-      description: "Go above and beyond the ordinary",
-      price: "$36,620",
-      mpg: "22/29",
-      image:
-        "https://toyotaassets.scene7.com/is/image/toyota/HLD_MY23_0003_V001_desktop-1?fmt=jpeg&fit=crop&qlt=90&wid=500",
-    },
-    {
-      id: 7,
-      name: "bZ4X",
-      year: 2023,
-      type: "crossovers-suvs",
-      hybrid: true,
-      description: "Refreshingly intuitive.Remarkably designed",
-      price: "$42,050",
-      mpg: "252",
-      image:
-        "https://toyotaassets.scene7.com/is/image/toyota/BZ4_MY23_0035_V001-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
-    },
   ];
+
   return (
-    <div className="catalog-container">
-      <div className="catalog-item">
-        {carInfo.map((car) => {
-          return (
-            <div className="catalog-item">
-              <InventoryCard carData={car} />
-            </div>
-          );
-        })}
-      </div>
+    <div>
+      {carInfo.map((cars) => {
+        console.log(cars);
+        return <div key={cars.id}> {cars.name}</div>;
+      })}
     </div>
   );
 };
 
-export default InventoryCatalog;
-
-{
-  /* 
-      <div className="catalog-item">
-        <InventoryCard />
-      </div>
-      <div className="catalog-item">
-        <InventoryCard />
-      </div>
-      <div className="catalog-item">
-        <InventoryCard />
-      </div> */
-}
+export default dataInfo;
