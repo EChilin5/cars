@@ -15,7 +15,7 @@ const NavbarHome = () => {
       <Navbar bg="light" variant="light">
         <Container>
           <Navbar.Brand as={Link} to={"/"}>
-            Navbar
+            Chill Wheellz
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to={"/"}>
@@ -34,6 +34,7 @@ const NavbarHome = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<InventoryPage />} />
         <Route path="/detail" element={<ItemDetailPage />} />
+        <Route path="/inventory/detail/:id" element={<ItemDetailPage />} />
       </Routes>
     </Router>
   );

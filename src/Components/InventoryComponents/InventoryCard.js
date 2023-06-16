@@ -4,8 +4,12 @@ import "./InventoryCard.css";
 
 const InventoryCard = (props) => {
   let car = props.carData;
+  const openCarDetail = () => {
+    let urlItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    window.open(urlItem, "_self");
+  };
   return (
-    <div className="inventory-card-container">
+    <div className="inventory-card-container" onClick={() => openCarDetail()}>
       <div className="inventory-card-photo">
         <img src={car.image} alt="toyota" />
       </div>

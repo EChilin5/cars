@@ -1,6 +1,8 @@
 import React from "react";
 import "./InventoryCatalog.css";
 import InventoryCard from "./InventoryCard";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const InventoryCatalog = (props) => {
   const carInfo = [
@@ -101,8 +103,18 @@ const InventoryCatalog = (props) => {
         "https://toyotaassets.scene7.com/is/image/toyota/BZ4_MY23_0035_V001-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
     },
   ];
+
+  const searchCar = () => {};
+
   return (
     <div className="catalog-container">
+      <FloatingLabel
+        controlId="floatingInput"
+        label="Search By Maker"
+        className="mb-3"
+      >
+        <Form.Control type="text" placeholder="car maker" />
+      </FloatingLabel>
       <div className="catalog-item">
         {carInfo.map((car) => {
           return (

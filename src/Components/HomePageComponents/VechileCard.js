@@ -5,8 +5,13 @@ import "./VechileCard.css";
 
 const VechileCard = (props) => {
   let car = props.vehicleInformation;
+  const openCarDetail = () => {
+    let urlItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    window.open(urlItem, "_self");
+  };
+
   return (
-    <div className="vechile-card-layout">
+    <div className="vechile-card-layout" onClick={() => openCarDetail()}>
       <div>
         <img src={car.image} alt="vehicle" />
       </div>

@@ -1,7 +1,8 @@
 .inventory-card-container{
     margin: 10px;
     padding:10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+    text-align: center;
 }
 
 .inventory-card-photo img{
@@ -15,6 +16,7 @@
     display: flex;
     flex-wrap: wrap;
    margin-bottom: 20px;
+  
 }
 
 .inventory-car-item{
