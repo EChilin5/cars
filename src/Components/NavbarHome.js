@@ -24,16 +24,13 @@ const NavbarHome = () => {
             <Nav.Link as={Link} to={"/inventory"}>
               Inventory
             </Nav.Link>
-            <Nav.Link as={Link} to={"/detail"}>
-              Pricing
-            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/inventory" element={<InventoryPage />} />
-        <Route path="/detail" element={<ItemDetailPage />} />
+
         <Route path="/inventory/detail/:id" element={<ItemDetailPage />} />
       </Routes>
     </Router>
