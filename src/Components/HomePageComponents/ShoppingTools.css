@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     background-color: #FBFBFB;
     margin: 5%;
-
+    text-align: center;
+    font-size: larger;
 }
 
 .shopping-tools-item{
@@ -16,7 +17,7 @@
     border-right: none;
 }
 
-@media screen and (min-width:300px) {
+@media only screen and (max-width:900px) {
     .shopping-tools-item{
         flex-basis: 50%;
         text-align: center;

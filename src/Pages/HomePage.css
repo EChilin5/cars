@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-@media screen and  (min-width:300px){
+@media only screen and (max-width: 700px){
 
     .home-gallery img{
         height: 300px;

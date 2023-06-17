@@ -7,7 +7,6 @@ import VechileCard from "../Components/HomePageComponents/VechileCard";
 import FillJustNav from "../Components/HomePageComponents/FillJustNav";
 import Button from "react-bootstrap/esm/Button";
 import ShoppingTools from "../Components/HomePageComponents/ShoppingTools";
-import DataInfoDetailsEX from "../Components/DataInfoDetailsEX";
 
 const HomePage = () => {
   let url = "http://localhost:3000/inventory";
