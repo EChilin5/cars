@@ -149,8 +149,6 @@ const HomePage = () => {
         <div className="explore-all-vechiles-section">
           {displayVehicle()}
           <div className="explore-all-vec-btn">
-            <Button>Explore all Vehicles</Button>
-            <br />
             <Button onClick={() => openNewWindow()}>Search Inventory</Button>
           </div>
         </div>

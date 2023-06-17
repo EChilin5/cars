@@ -1,46 +1,32 @@
 .vechile-card-layout{
-    /* border: 2px solid black; */
-    /* border-radius: 5%; */
-   
-   
-    /* background:linear-gradient(135deg, #fcdf8a 0%,#f38381 100%); */
     background:rgba(16, 82, 16, 0.541);
-
     max-width:100%;
     height:auto;
     margin: 10px;
 }
 .vechile-card-layout img{
-    max-width:100%;
-    height:auto;
+    object-fit: cover;
+
+    width: 100%;
+    max-height: 300px;
     
 }
 
 .vechile-car-type{
-    font-size: medium;
-    text-align: left;
-    padding-top: 10px;
+    text-align: center;
+    text-align: right;
+}
 
+.vechile-car-model h3{
+    font-weight: 500;
 }
 
 .card-content{
-    background:rgba(16, 82, 16, 0.541);
-    padding: 10px;
+    /* background:rgba(16, 82, 16, 0.541); */
     color: #ffffff;
-
+    text-align: center;
+    padding: 5px;
 }
-
-.vechile-car-model{
-    font-size: medium;
-    text-align: left;
-    padding-top: 10px;
-}
-.vechile-car-desc{
-    font-size: medium;
-    text-align: left;
-    padding-top: 10px;
-}
-
 
 .vechile-content-data{
     display: flex;
@@ -65,6 +51,7 @@
     transform: scale(1.2);
     margin-right: 20px;
     margin-left: 20px;
+    color: yellow;
     background-color: transparent;
     border: 2px solid linear-gradient(135deg, #E3E3E3 0%,#d2d3d5 100%);;
 }
@@ -80,7 +67,4 @@
     font-size: x-large;
 }
 
-.vehicle-options-btn{
-    justify-content: center;
-    align-items: center;
-}
+

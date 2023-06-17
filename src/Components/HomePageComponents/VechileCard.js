@@ -6,7 +6,9 @@ import "./VechileCard.css";
 const VechileCard = (props) => {
   let car = props.vehicleInformation;
   const openCarDetail = () => {
-    let urlItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    let urlTestItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    let urlItem = `https://cars-r-us-80902.web.app/inventory/detail/${car.id}`;
+
     window.open(urlItem, "_self");
   };
 
@@ -23,11 +25,12 @@ const VechileCard = (props) => {
         <div className="vechile-car-desc">{car.description}</div>
         <div className="vechile-content-data">
           <div className="vechile-content-data-item">
-            {" "}
-            {car.price} <br /> starting msrp
+            <div> {car.price} </div>
+            <div>starting msrp</div>
           </div>
           <div className="vechile-content-data-item">
-            {car.mpg} <br /> est mpg*
+            <div>{car.mpg}</div>
+            <div>est mpg*</div>
           </div>
         </div>
         <div className="vehicle-options-btn">

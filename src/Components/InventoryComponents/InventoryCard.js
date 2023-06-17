@@ -5,7 +5,8 @@ import "./InventoryCard.css";
 const InventoryCard = (props) => {
   let car = props.carData;
   const openCarDetail = () => {
-    let urlItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    let urlTestItem = `http://localhost:3000/inventory/detail/${car.id}`;
+    let urlItem = `https://cars-r-us-80902.web.app/inventory/detail/${car.id}`;
     window.open(urlItem, "_self");
   };
   return (
