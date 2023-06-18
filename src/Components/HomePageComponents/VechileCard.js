@@ -1,5 +1,4 @@
 import React from "react";
-import tacomaImage from "../../Images/toyotatacoma.PNG";
 import Button from "react-bootstrap/esm/Button";
 import "./VechileCard.css";
 
@@ -9,7 +8,7 @@ const VechileCard = (props) => {
     let urlTestItem = `http://localhost:3000/inventory/detail/${car.id}`;
     let urlItem = `https://cars-r-us-80902.web.app/inventory/detail/${car.id}`;
 
-    window.open(urlItem, "_self");
+    window.open(urlTestItem, "_self");
   };
 
   return (

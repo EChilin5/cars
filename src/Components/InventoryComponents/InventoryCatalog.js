@@ -107,7 +107,7 @@ const InventoryCatalog = (props) => {
   const searchCar = () => {};
 
   return (
-    <div className="catalog-container">
+    <div className="catalog">
       <FloatingLabel
         controlId="floatingInput"
         label="Search By Maker"
@@ -115,7 +115,7 @@ const InventoryCatalog = (props) => {
       >
         <Form.Control type="text" placeholder="car maker" />
       </FloatingLabel>
-      <div className="catalog-item">
+      <div className="catalog-container">
         {carInfo.map((car) => {
           return (
             <div className="catalog-item">
