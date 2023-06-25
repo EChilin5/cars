@@ -1,6 +1,7 @@
 .inventory-container{
     display: flex;
     margin: 2%;
+    
 }
 
 .inventory-section-filter{

@@ -1,8 +1,8 @@
 
 .finance-section{
     margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     background-color: white;
@@ -22,7 +22,10 @@
 }
 
 .payment-summary-section{
-    margin: 20px 10px 30px 10px;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     background-color: white;
@@ -64,4 +67,13 @@
 .payment-content-minor{
     font-size: x-small;
     margin-bottom: 10px;
+}
+
+@media only screen and (max-width:500px){
+    .finance-section{
+        margin: 20px 15px 30px 15px;
+    }
+    .payment-summary-section{
+        margin: 20px 15px 30px 15px;
+    }
 }

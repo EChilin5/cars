@@ -9,7 +9,7 @@ import Button from "react-bootstrap/esm/Button";
 import ShoppingTools from "../Components/HomePageComponents/ShoppingTools";
 
 const HomePage = () => {
-  let url = "http://localhost:3000/inventory";
+  let url = "https://cars-r-us-80902.web.app/inventory";
 
   const [VehicleID, setVehicleID] = useState(0);
   let vehiclesType = ["trucks", "sedans", "suv"];
