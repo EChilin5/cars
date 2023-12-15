@@ -7,6 +7,7 @@ import VechileCard from "../Components/HomePageComponents/VechileCard";
 import FillJustNav from "../Components/HomePageComponents/FillJustNav";
 import Button from "react-bootstrap/esm/Button";
 import ShoppingTools from "../Components/HomePageComponents/ShoppingTools";
+import Footer from "../Components/Footer/Footer";
 
 const HomePage = () => {
   let url = "https://cars-r-us-80902.web.app/inventory";
