@@ -1,3 +1,7 @@
+body{
+ font-family: tcomMed,HelveticaNeueMedium,Helvetica Neue Medium,Arial,sans-serif;
+}
+
 .home-gallery img{
     width: 100%;
     height: auto;
