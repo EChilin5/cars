@@ -16,7 +16,7 @@ const InventoryCatalog = (props) => {
       price: "$39,950",
       mpg: "42/41",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/CRW_MY23_0004_V002?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_crown.PNG?raw=true",
     },
     {
       id: 1,
@@ -28,7 +28,7 @@ const InventoryCatalog = (props) => {
       price: "$32,350",
       mpg: "48/114",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/PRP_MY23_0016_V001_desktop?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_prius.PNG?raw=true",
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const InventoryCatalog = (props) => {
       price: "$28,250",
       mpg: "18/22",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/Tacoma_23?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_tacoma.PNG?raw=true",
     },
     {
       id: 3,
@@ -52,7 +52,7 @@ const InventoryCatalog = (props) => {
       price: "$38,965",
       mpg: "18/24",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/TUN_MY22_0002_V002_desktop?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_tundra.PNG?raw=true",
     },
     {
       id: 4,
@@ -64,7 +64,7 @@ const InventoryCatalog = (props) => {
       price: "$40,620",
       mpg: "36/35",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/HLH_MY23_0002_V001_desktop-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_highlanderhybrid.PNG?raw=true",
     },
     {
       id: 5,
@@ -76,7 +76,7 @@ const InventoryCatalog = (props) => {
       price: "$42,050",
       mpg: "252",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/BZ4_MY23_0035_V001-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_bz4x.PNG?raw=true",
     },
     {
       id: 6,
@@ -88,19 +88,7 @@ const InventoryCatalog = (props) => {
       price: "$36,620",
       mpg: "22/29",
       image:
-        "https://toyotaassets.scene7.com/is/image/toyota/HLD_MY23_0003_V001_desktop-1?fmt=jpeg&fit=crop&qlt=90&wid=500",
-    },
-    {
-      id: 7,
-      name: "bZ4X",
-      year: 2023,
-      type: "crossovers-suvs",
-      hybrid: true,
-      description: "Refreshingly intuitive.Remarkably designed",
-      price: "$42,050",
-      mpg: "252",
-      image:
-        "https://toyotaassets.scene7.com/is/image/toyota/BZ4_MY23_0035_V001-2?fmt=jpeg&fit=crop&qlt=90&wid=500",
+        "https://github.com/EChilin5/cars/blob/master/src/carphotos/toyota_highlander.PNG?raw=true",
     },
   ];
 
