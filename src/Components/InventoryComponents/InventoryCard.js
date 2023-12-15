@@ -6,7 +6,7 @@ const InventoryCard = (props) => {
   const openCarDetail = () => {
     let urlTestItem = `http://localhost:3000/inventory/detail/${car.id}`;
     let urlItem = `https://cars-r-us-80902.web.app/inventory/detail/${car.id}`;
-    window.open(urlTestItem, "_self");
+    window.open(urlItem, "_self");
   };
   return (
     <div className="inventory-card-container" onClick={() => openCarDetail()}>
